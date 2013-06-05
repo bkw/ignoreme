@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://bkw.github.io/ignoreme/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
-  <updated>2013-06-06T00:54:47+02:00</updated>
+  <updated>2013-06-06T00:59:19+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -57,12 +57,11 @@ into the gui and use the tunnel id as a hostname, like
 suggests.</p>
 
 <p>Unfortunately (but very sensibly) fritzbox checks the dns record of the host to
-be updated before it actually calls the url. This makes perfect sense: Updates
-are only performed when neccessary. But in our case, the value of the hostname
-field is not an existing host. The alternative hostnames
-(tunnel#.tunnelbroker.net, user-#.tunnel.tserv#.loc#.ipv6.he.net) also do not
-resolve. This results in the following log message on
-your fritzbox:</p>
+be updated before it actually calls the service. This makes perfect sense:
+Updates are only performed when neccessary. But in our case, the value of the
+hostname field is not an existing host, it&rsquo;s the tunnel id. The alternative
+hostnames (tunnel#.tunnelbroker.net, user-#.tunnel.tserv#.loc#.ipv6.he.net)
+also do not resolve. This results in the following log message on your fritzbox:</p>
 
 <pre><code>    Dynamic DNS error: Dynamic DNS update is disabled until the dynamic DNS registration data are changed.
     Dynamic DNS error: The specified domain name cannot be resolved.
