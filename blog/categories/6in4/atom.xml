@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 6in4 | My Octopress Blog]]></title>
   <link href="http://bkw.github.io/ignoreme/blog/categories/6in4/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
-  <updated>2013-06-06T01:53:21+02:00</updated>
+  <updated>2013-06-06T01:57:15+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -45,6 +45,9 @@ However, he.net tunnels use the plain <a href="http://en.wikipedia.org/wiki/6in4
 mechanism, which is designed for static endpoints.</p>
 
 <p><img class="center" src="/images/blog/bkw/fritzbox-6in4.png" width="553" height="177" title="&lsquo;fritzbox 6in4 tunnel config gui&rsquo; &lsquo;fritzbox gui screenshot&rsquo;" ></p>
+
+<p>This implies your remote tunnel endpoint is configured to point to one specific
+ip address at your end, presumably the one you had when you created the tunnel.</p>
 
 <p><strong>This means that whenever your ISP gives you a new ip, your tunnel stops working.</strong></p>
 
