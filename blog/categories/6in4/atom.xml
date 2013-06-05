@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 6in4 | My Octopress Blog]]></title>
   <link href="http://bkw.github.io/ignoreme/blog/categories/6in4/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
-  <updated>2013-06-06T01:59:25+02:00</updated>
+  <updated>2013-06-06T01:59:50+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -82,7 +82,7 @@ for that hostname, too! Let&rsquo;s walk through this:</p>
 <ul>
 <li><p>move the dns of the whole domain to dns.he.net by updating the NS-records at your current provider/registrar, or:</p></li>
 <li><p>use a subdomain and delegate it to dns.he.net. Just create NS records for
-something like <code>home.example.com</code> pointing to ns1.he.net, ns2.he.net, ns3.he.net, ns4.he.net and ns5.he.net.</p></li>
+something like <code>home.example.com</code> pointing to ns2.he.net, ns3.he.net, ns4.he.net and ns5.he.net.</p></li>
 </ul>
 
 
