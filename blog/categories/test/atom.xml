@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: test | My Octopress Blog]]></title>
-  <link href="http://bkw.github.io/ignoreme//blog/categories/test/atom.xml" rel="self"/>
-  <link href="http://bkw.github.io/ignoreme//"/>
-  <updated>2013-06-05T18:13:08+02:00</updated>
-  <id>http://bkw.github.io/ignoreme//</id>
+  <link href="http://bkw.github.io/ignoreme/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://bkw.github.io/ignoreme/"/>
+  <updated>2013-06-05T18:23:09+02:00</updated>
+  <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[first post]]></title>
-    <link href="http://bkw.github.io/ignoreme//blog/2013/06/05/first-post/"/>
+    <link href="http://bkw.github.io/ignoreme/blog/2013/06/05/first-post/"/>
     <updated>2013-06-05T17:56:00+02:00</updated>
-    <id>http://bkw.github.io/ignoreme//blog/2013/06/05/first-post</id>
+    <id>http://bkw.github.io/ignoreme/blog/2013/06/05/first-post</id>
     <content type="html"><![CDATA[<h1>Hello World!</h1>
 
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
