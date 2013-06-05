@@ -4,7 +4,7 @@
   <title><![CDATA[Category: fritzbox | My Octopress Blog]]></title>
   <link href="http://bkw.github.io/ignoreme/blog/categories/fritzbox/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
-  <updated>2013-06-06T00:59:19+02:00</updated>
+  <updated>2013-06-06T01:49:43+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -83,7 +83,7 @@ something like <code>home.example.com</code> pointing to ns1.he.net, ns2.he.net,
 </ul>
 
 
-<p>Either way, you should now have (sub-)domain that you can control via
+<p>Either way, you should now have a (sub-)domain that you can control via
 dns.he.net. Create a host in that zone with any ip address and select <strong>enable
 entry for dynamic dns</strong>.</p>
 
