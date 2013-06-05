@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://bkw.github.io/ignoreme/atom.xml" rel="self"/>
+  <title><![CDATA[Category: ipv6 | My Octopress Blog]]></title>
+  <link href="http://bkw.github.io/ignoreme/blog/categories/ipv6/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
   <updated>2013-06-06T00:54:47+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<h2>TL;DR:</h2>
 
 <p>Associate your tunnel with a dynamically updated hostname from a subomain at
-dns.ht.net, use that host for fritzbox&#8217;es user-defined dynamic dns feature and
+dns.ht.net, use that host for fritzbox'es user-defined dynamic dns feature and
 hardcode your tunnelid into the &ldquo;Dynamic DNS provider&rdquo; url.</p>
 
 <h1>The Problem:</h1>
@@ -38,13 +38,13 @@ Do it now, you won&rsquo;t regret it. I&rsquo;ll wait.</p>
 router enjoy some ipv6 support out of the box, i.e.
 <a href="http://www.sixxs.net">SixXs.net</a>-tunnels can be configured via the gui:</p>
 
-<p><img class="center" src="http://bkw.github.io/ignoreme/images/blog/bkw/fritzbox-sixx.png" width="665" height="177" title="fritzbox sixxs tunnel config gui" alt="fritzbox gui screenshot"></p>
+<p><img class="center" src="/images/blog/bkw/fritzbox-sixx.png" width="665" height="177" title="&lsquo;fritzbox sixxs tunnel config gui&rsquo; &lsquo;fritzbox gui screenshot&rsquo;" ></p>
 
 <p>SixXs.net supports a protocol to remotely manage your tunnel endpoint.
 However, he.net tunnels use the plain <a href="http://en.wikipedia.org/wiki/6in4">6in4</a>
 mechanism, which is designed for static endpoints.</p>
 
-<p><img class="center" src="http://bkw.github.io/ignoreme/images/blog/bkw/fritzbox-6in4.png" width="553" height="177" title="fritzbox 6in4 tunnel config gui" alt="fritzbox gui screenshot"></p>
+<p><img class="center" src="/images/blog/bkw/fritzbox-6in4.png" width="553" height="177" title="&lsquo;fritzbox 6in4 tunnel config gui&rsquo; &lsquo;fritzbox gui screenshot&rsquo;" ></p>
 
 <p><strong>This means that whenever your ISP gives you a new ip, your tunnel stops working.</strong></p>
 
@@ -88,22 +88,22 @@ something like <code>home.example.com</code> pointing to ns1.he.net, ns2.he.net,
 dns.he.net. Create a host in that zone with any ip address and select <strong>enable
 entry for dynamic dns</strong>.</p>
 
-<p><img class="left" src="http://bkw.github.io/ignoreme/images/blog/bkw/dns-henet-dynamic.png" width="605" height="325" title="dns.he.net dynamic host update gui" alt="dns.he.net gui screenshot"></p>
+<p><img class="left" src="/images/blog/bkw/dns-henet-dynamic.png" width="605" height="325" title="&lsquo;dns.he.net dynamic host update gui&rsquo; &lsquo;dns.he.net gui screenshot&rsquo;" ></p>
 
 <p>Next, in the listing of your domain&rsquo;s records, click the refresh symbol in this host&rsquo;s DDNS column:</p>
 
-<p><img class="left" src="http://bkw.github.io/ignoreme/images/blog/bkw/dns-henet-dynamic-key.png" width="843" height="333" title="dns.he.net dynamic host update gui" alt="dns.he.net gui screenshot"></p>
+<p><img class="left" src="/images/blog/bkw/dns-henet-dynamic-key.png" width="843" height="333" title="&lsquo;dns.he.net dynamic host update gui&rsquo; &lsquo;dns.he.net gui screenshot&rsquo;" ></p>
 
 <p>Generate a key to use for updates to this host:</p>
 
-<p><img class="left" src="http://bkw.github.io/ignoreme/images/blog/bkw/dns-henet-dynamic-key2.png" width="606" height="288" title="dns.he.net dynamic host update gui" alt="dns.he.net gui screenshot"></p>
+<p><img class="left" src="/images/blog/bkw/dns-henet-dynamic-key2.png" width="606" height="288" title="&lsquo;dns.he.net dynamic host update gui&rsquo; &lsquo;dns.he.net gui screenshot&rsquo;" ></p>
 
 <p>Save that key, you&rsquo;ll need it in a minute.</p>
 
 <p>Now head over to <a href="https://tunnelbroker.net">tunnelbroker.net</a>, open up your
 tunnel&rsquo;s details and select the <strong>Advanced</strong> tab. Enter the dynamic hostname you configured in the last step and the key you generated.</p>
 
-<p><img class="left" src="http://bkw.github.io/ignoreme/images/blog/bkw/tunnelbroker-dynamic-host.png" width="606" height="288" title="tunnelbroker dynamic host update gui" alt="tunnelbroker.net gui screenshot"></p>
+<p><img class="left" src="/images/blog/bkw/tunnelbroker-dynamic-host.png" width="606" height="288" title="&lsquo;tunnelbroker dynamic host update gui&rsquo; &lsquo;tunnelbroker.net gui screenshot&rsquo;" ></p>
 
 <p>Now, whenever the tunnel endpoint is updated, the hostname <em>gw.home.example.com</em> will be updated to your router&rsquo;s ipv4 address as well.</p>
 
@@ -120,7 +120,7 @@ page at tunnelbroker.net and hit <em>Apply</em>.</p>
 <p>Open Internet/Permit Access/Dynamic DNS, check <em>Use dynamic DNS</em> and select
 <em>User-defined</em> for <em>Dynamic DNS provider</em>.</p>
 
-<p><img class="left" src="http://bkw.github.io/ignoreme/images/blog/bkw/fritzbox-dyndns.png" width="606" height="288" title="fritzbox dyndns gui" alt="fritzbox gui screenshot"></p>
+<p><img class="left" src="/images/blog/bkw/fritzbox-dyndns.png" width="606" height="288" title="&lsquo;fritzbox dyndns gui&rsquo; &lsquo;fritzbox gui screenshot&rsquo;" ></p>
 
 <p>Enter the following URL for <em>Update URL</em>, replacing <em>123456</em> with the id of
 your he.net tunnel:</p>
@@ -142,36 +142,6 @@ performed.</p>
 
 <p>The dynamic hostname (which is kept in sync by hurricane electric) is used for
 checking for changes, but the actual update is performed on the tunnel id hardcoded in the <em>Update URL</em>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[first post]]></title>
-    <link href="http://bkw.github.io/ignoreme/blog/2013/06/05/first-post/"/>
-    <updated>2013-06-05T17:56:00+02:00</updated>
-    <id>http://bkw.github.io/ignoreme/blog/2013/06/05/first-post</id>
-    <content type="html"><![CDATA[<h1>Hello World!</h1>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-<!-- more -->
-
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 ]]></content>
   </entry>
   
