@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ipv6 | My Octopress Blog]]></title>
   <link href="http://bkw.github.io/ignoreme/blog/categories/ipv6/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
-  <updated>2013-06-06T02:17:49+02:00</updated>
+  <updated>2013-06-06T02:19:38+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<h2>TL;DR:</h2>
 
 <p>Associate your tunnel with a dynamically updated hostname from a subomain at
-dns.ht.net, use that host for fritzbox'es user-defined dynamic dns feature and
+dns.he.net, use that host for fritzbox'es user-defined dynamic dns feature and
 hardcode your tunnelid into the &ldquo;Dynamic DNS provider&rdquo; url.</p>
 
 <h1>The Problem:</h1>
