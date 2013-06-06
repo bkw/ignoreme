@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 6in4 | My Octopress Blog]]></title>
   <link href="http://bkw.github.io/ignoreme/blog/categories/6in4/atom.xml" rel="self"/>
   <link href="http://bkw.github.io/ignoreme/"/>
-  <updated>2013-06-06T02:03:29+02:00</updated>
+  <updated>2013-06-06T02:11:08+02:00</updated>
   <id>http://bkw.github.io/ignoreme/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -140,16 +140,20 @@ performed.</p>
 
 <p>Hit <em>Apply</em> and enjoy an auto updating IPv6 tunnel to hurricane electric.</p>
 
-<p>As an added bonus, you can always reach your router and any services
-you configured a forwarding for under you own hostname <em>(gw.home.example.com)</em>!
-How cool is that? Well, now that you have IPv6, you actually don&rsquo;t need those
-pesky port forwards any more, just assign any v6 address you like and use
-internet routing the way it was supposed to work in the first place.</p>
-
 <h2>How does this work?</h2>
 
 <p>The dynamic hostname (which is kept in sync by hurricane electric) is used for
 checking for changes, but the actual update is performed on the tunnel id hardcoded in the <em>Update URL</em>.</p>
+
+<h2>Bonus</h2>
+
+<p>As a useful side effect, from now on you can always reach your router and any
+port-forwared services under you own hostname <em>(gw.home.example.com)</em> in your
+very own domain!  How cool is that?</p>
+
+<p>Actually, now that you have IPv6, you don&rsquo;t really need those
+pesky port forwards any more: just assign any v6 address you like and use
+plain internet routing the way it was supposed to work in the first place.</p>
 ]]></content>
   </entry>
   
